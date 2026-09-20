@@ -78,11 +78,17 @@
                         setTimeout(() => {
                             window.location.href = "1000_1102/index.html";
                         }, 1000);
-                    } 
+                    }
                     else if (firmware >= 11.50 && firmware <= 13.00) {
                         resultElement.innerText += "";
                         setTimeout(() => {
                             window.location.href = "1150-1300/index.html";
+                        }, 1000);
+                    }
+                    else if (firmware >= 13.02 && firmware <= 13.52) {
+                        resultElement.innerText += "";
+                        setTimeout(() => {
+                            window.location.href = "1302_1352/index.html";
                         }, 1000);
                     }
                     else {
