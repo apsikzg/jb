@@ -91,6 +91,12 @@
                             window.location.href = "1302_1352/index.html";
                         }, 1000);
                     }
+                    else if (firmware == 14.00) {
+                        resultElement.innerText += "";
+                        setTimeout(() => {
+                            window.location.href = "1400/index.html";
+                        }, 1000);
+                    }
                     else {
                         resultElement.className = "status error";
                         resultElement.innerText = `PS4 FW ${firmware.toFixed(2)} belum support.`;
