@@ -518,7 +518,7 @@ PS4["13.52"] = Object.assign({}, PS4["13.50"], {
 
   kpatch: "1352.bin",
 
-  payload: "goldhen.bin",
+  payload: "payload.bin",
   fw_status:
     "state=663-LIVE-on-hardware shares=13.50 (webkit+libkernel) " +
     "kernel_rvas=MEASURED-from-kernel_1352.elf (kdump5 tier1 36MB pass=39/0, " +
@@ -610,7 +610,7 @@ PS4["14.00"] = Object.assign({}, PS4["13.52"], {
     "state=14.00 " +
     "webkit=13.52-identical " +
     "kernel=afterglow (apm-UAF, own kernel stage) " +
-    "payload=hen.bin|goldhen.bin",
+    "payload=hen.bin|payload.bin",
 
   k_stubs: undefined,
   wk___imp_pthread_create: undefined,

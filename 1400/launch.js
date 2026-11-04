@@ -15,7 +15,7 @@
 
         setTimeout(function () {
             location.replace(
-                "exploit.html?log=1&afterglow=run&mode=goldhen"
+                "exploit.html?log=1&afterglow=run&mode=payload"
             );
         }, 1000);
     }
